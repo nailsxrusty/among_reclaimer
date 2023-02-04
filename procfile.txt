@@ -1,1 +1,1 @@
-worker: python3 among_reclaimer.py
+web: python3 among_reclaimer.py
