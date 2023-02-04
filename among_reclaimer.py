@@ -43,4 +43,4 @@ async def on_message(message):
 		else:
 			await message.channel.send("I do not have permission to send messages in this channel.")
 
-client.run("INSERT TOKEN HERE")
+client.run("os.environ["DISCORD_TOKEN"]")
