@@ -1,1 +1,1 @@
-web: FLASK_APP=among_reclaimer.py flask run --port=$PORT --host=0.0.0.0
+web: python among_reclaimer.py
